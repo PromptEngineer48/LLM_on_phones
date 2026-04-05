@@ -42,7 +42,7 @@ curl -L -o models/3B/small.gguf https://huggingface.co/bartowski/SmallThinker-3B
 8.	Serve your LLM model
 Type this command: 
 ```bash
-./bin/llama-server –model models/3B/small.gguf
+./bin/llama-server --model models/3B/small.gguf
 ```
 
 9.	Go to localhost:8080 for testing the model:
